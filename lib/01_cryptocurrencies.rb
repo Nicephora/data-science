@@ -17,36 +17,35 @@ def float (cours)
 	return cours_f #retourner l'array
 end
 
+my_hash = Hash[float(cours).zip(crypto)] #fusion de l'array float et crypto en hash
+
 #crypto ayant la valeur la plus forte
-def max (cours,crypto)
-	cours_crypto_float = Hash[float(cours).zip(crypto)] #fusion de l'array float et crypto en hash
-	n = cours_crypto_float.max #array avec la plus grosse valeur
+def max (my_hash)
+	n = my_hash.max #array avec la plus grosse valeur
 	puts "La cryptomonnaie qui a la plus grosse valeur est la #{n[1]} avec un cours de #{n[0]} dollars."
 end
 
 #crypto ayant la valeur la plus faible
-def min (cours,crypto)
-	cours_crypto_float = Hash[float(cours).zip(crypto)]
-	n = cours_crypto_float.min 
+def min (my_hash)
+	n = my_hash.min 
 	puts "La cryptomonnaie qui a la plus faible valeur est la #{n[1]} avec un cours de #{n[0]} dollars."
 end
 
 #crypto qui contiennt le mot "coin"
-def coin (crypto)
-	coin = []
-	crypto.each do |i|
-		if i.match(/[Cc][Oo][Ii][Nn]/)
-			coin << i
+def coin (my_hash)
+	coin = 1 #initialise à 1
+	my_hash.each do |key, value|
+		if value.match(/[Cc][Oo][Ii][Nn]/)
+			coin +=1 #à chaque fois qu'une value (nom de la crypto) contient le mot coin, on rajoute +1
 		end
 	end
-	puts "Il y a #{coin.count} crypto qui contiennent le mot coin."
+	puts "Il y a #{coin} crypto qui contiennent le mot coin."
 end
 
 #crypto dont le cours est < 6000
-def inf (cours,crypto)
-	cours_crypto_float = Hash[float(cours).zip(crypto)]
+def inf (my_hash)
 	n = []
-	cours_crypto_float.each do |key,value|
+	my_hash.each do |key, value|
 		if key < 6000
 			n << value
 		end
@@ -55,35 +54,37 @@ def inf (cours,crypto)
 end
 
 #crypto < 6000 avec la plus grosse valeur
-def inf_max(cours,crypto)
-	cours_crypto_float = Hash[float(cours).zip(crypto)]
-	cours_crypto_float.each do |key,value|
+def inf_max(my_hash)
+	my_hash.each do |key,value|
 		if key > 6000
-			cours_crypto_float.delete(key) #supprime du hash l'élément à chaque fois que la clé est > 6000
+			my_hash.delete(key) #supprime du hash l'élément à chaque fois que la clé est > 6000
 		end
 	end
-	n = cours_crypto_float.keys.max #clé (cours) la plus élevée
-	puts "La crypto inférieure 6000 dollars la plus chère est la #{cours_crypto_float[n]} avec un cours de #{n} dollars" 
+	n = my_hash.keys.max #clé (cours) la plus élevée
+	puts "La crypto inférieure 6000 dollars la plus chère est la #{my_hash[n]} avec un cours de #{n} dollars" 
 	#va chercher dans le tableau la valeur correspondante à la clé "n"
 end
 
-def perform(cours,crypto)
+def perform(my_hash)
 	puts "Bonjour, je suis le dictionnaire de la cryptomonnaie, que veux-tu savoir ?"
 	puts "\n 1 - La crypto qui a la plus grosse valeur \n 2 - La crypto qui a la plus petite valeur \n 3 - Le nombre de crypto contenant le mot 'coin' \n 4 - Les devises dont le cours est inférieur à $6000 \n 5 - La devise la plus chère parmi celles dont le cours est inférieur à 6000"
 	print "> "
+	
 	n = gets.chomp.to_i
 
 	if n == 1
-		max(cours,crypto)
+		max(my_hash)
 	elsif n == 2
-		min(cours,crypto)
+		min(my_hash)
 	elsif n == 3
-		coin(crypto)
+		coin(my_hash)
 	elsif n == 4
-		print inf(cours,crypto)
+		print inf(my_hash)
 	elsif n == 5 
-		inf_max(cours,crypto)
+		inf_max(my_hash)
 	end
+
 end
 
-perform(cours,crypto)
+perform(my_hash)
+
