@@ -11,31 +11,31 @@ def float (cours)
 	n = cours.size
 	cours_f = [] #nouvelle array pour le cours sans $ et format float
 	n.times do |i| #boucle pour chaque élément de l'array "cours"
-		x = cours[i].sub!("$", "").to_f #lui enlever le $ et le convertir en float
+		x = cours[i].sub("$", "").to_f #lui enlever le $ et le convertir en float
 		cours_f << x #le mettre dans la nouvelle array
 	end
 	return cours_f #retourner l'array
 end
 
-my_hash = Hash[float(cours).zip(crypto)] #fusion de l'array float et crypto en hash
+my_hash = crypto.zip(float(cours)).to_h #hash qui combine crypto en valeur et cours en clé
 
 #crypto ayant la valeur la plus forte
 def max (my_hash)
-	n = my_hash.max #array avec la plus grosse valeur
-	puts "La cryptomonnaie qui a la plus grosse valeur est la #{n[1]} avec un cours de #{n[0]} dollars."
+	n = my_hash.max_by{ |key, value| value }
+	puts "La cryptomonnaie qui a la plus faible valeur est la #{n[0]} avec un cours de #{n[1]} dollars."
 end
 
 #crypto ayant la valeur la plus faible
 def min (my_hash)
-	n = my_hash.min 
-	puts "La cryptomonnaie qui a la plus faible valeur est la #{n[1]} avec un cours de #{n[0]} dollars."
+	n = my_hash.min_by{ |key, value| value }
+	puts "La cryptomonnaie qui a la plus faible valeur est la #{n[0]} avec un cours de #{n[1]} dollars."
 end
 
 #crypto qui contiennt le mot "coin"
 def coin (my_hash)
 	coin = 1 #initialise à 1
-	my_hash.each do |key, value|
-		if value.match(/[Cc][Oo][Ii][Nn]/)
+	my_hash.each do |key,value|
+		if key.match(/[Cc][Oo][Ii][Nn]/)
 			coin +=1 #à chaque fois qu'une value (nom de la crypto) contient le mot coin, on rajoute +1
 		end
 	end
@@ -45,9 +45,9 @@ end
 #crypto dont le cours est < 6000
 def inf(my_hash)
 	n = []
-	my_hash.each do |key, value|
-		if key < 6000
-			n << value
+	my_hash.each do |key, value| #key => cours ; value => nom crypto
+		if value < 6000
+			n << key
 		end
 	end
 	return n
@@ -56,8 +56,8 @@ end
 #crypto < 6000 avec la plus grosse valeur
 def inf_max(my_hash)
 	my_hash.each do |key,value|
-		if key > 6000
-			my_hash.delete(key) #supprime du hash l'élément à chaque fois que la clé est > 6000
+		if value > 6000
+			my_hash.delete(value) #supprime du hash l'élément à chaque fois que la clé est > 6000
 		end
 	end
 	n = my_hash.keys.max #clé (cours) la plus élevée
@@ -92,5 +92,3 @@ def perform(my_hash)
 end
 
 perform(my_hash)
-
-
