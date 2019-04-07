@@ -43,7 +43,7 @@ def coin (my_hash)
 end
 
 #crypto dont le cours est < 6000
-def inf (my_hash)
+def inf(my_hash)
 	n = []
 	my_hash.each do |key, value|
 		if key < 6000
@@ -69,7 +69,7 @@ def perform(my_hash)
 	puts "Bonjour, je suis le dictionnaire de la cryptomonnaie, que veux-tu savoir ?"
 	puts "\n 1 - La crypto qui a la plus grosse valeur \n 2 - La crypto qui a la plus petite valeur \n 3 - Le nombre de crypto contenant le mot 'coin' \n 4 - Les devises dont le cours est inférieur à $6000 \n 5 - La devise la plus chère parmi celles dont le cours est inférieur à 6000"
 	print "> "
-	
+
 	n = gets.chomp.to_i
 
 	if n == 1
@@ -79,12 +79,18 @@ def perform(my_hash)
 	elsif n == 3
 		coin(my_hash)
 	elsif n == 4
-		print inf(my_hash)
+		puts "Il y a #{inf(my_hash).count} cryptomonnaies ayant une valeur < 6000 dollars, veux-tu savoir lesquelles ? (y/n)"
+		print "> "
+		choice = gets.chomp
+		if choice == "y"
+			print inf(my_hash)
+		elsif choice == "n"
+		end
 	elsif n == 5 
 		inf_max(my_hash)
 	end
-
 end
 
 perform(my_hash)
+
 
