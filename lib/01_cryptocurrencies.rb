@@ -17,7 +17,7 @@ def float (cours)
 	return cours_f #retourner l'array
 end
 
-my_hash = crypto.zip(float(cours)).to_h #hash qui combine crypto en valeur et cours en clé
+my_hash = crypto.zip(float(cours)).to_h #hash qui combine crypto en clé et cours en valeur
 
 #crypto ayant la valeur la plus forte
 def max (my_hash)
