@@ -1,10 +1,12 @@
 twitter = ["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellombart","@bendarag","@AurelieLebelle","@julienduffe","@thomaspoupeau","@LilyRossignol","@ClairGuedon","@stephanieauguy","@claw_prolongeau","@_JulieMenard","@LColcomb","@Zlauwereys","@MeLonguet","@DorotheeLN","@NolwennCosson","@ADaboval","@Remibaldy","@bderveaux","@amandechap","@ELODIESOULIE","@nbongarcon","@HeloAb","@Panamorama","@gregplou","@BenoitBerthe","@LauraBruneau89","@Anthony_Lieures","@Sharonwaj","@mcsonkin","@pverduzier","@emiliel3","@Julien_MARION","@SophiFay","@bdelombre","@annalecerf","@AdriaBudry","@DejNikolic","@iJaffre","@CyrusleVirus","@GPardigon","@e_vallerey","@IsabelleSouquet","@AudeDavidRossi","@Yoann_Pa","@CeliaPenavaire","@perraultvincent","@cboulate","@JustineWeyl","@Paulinejacot","@juliechab","@aslechevallier","@phnou","@Seb_Pommier","@Alex_Bensaid","@GuillaumeGaven","@annelaurechouin","@Oliviader","@guerricp","@JMMarchaut","@cyceron","@gregory_raymond","@vhunsinger","@l_peillon","@fannyguinochet","@EAssayag","@KibweAdom","@YvonHerry","@JohanGarciajg","@saidlabidi","@lauranneprov","@LeaDavy","@francois_remy","@CGuicheteau","@FloMaillet","@m_perroud","@oBrunet_TSMF","@MoonVdc","@jc2taille","@NellyMoussu","@VirginK","@b_misa","@FabriceCouste","@barbara_prose","@lelia2m","@brunoaskenazi","@laurenechamp","@ysisbox","@juliengagliardi","@PierreLel","@kdeniau","@_TerraInc","@DominicArpin","@antoinfonteneau","@nanotousch","@jb_roch","@YaniKhezzar","@Anne_Bechet","@NCapart","@SamyBenNaceur","@Joumany","@Julietteraynal","@TGiraudet","@SaraTanit","@HappeFrederic","@antoinellorca","@michelpicot","@Sev_Ryne","@bobdobolino","@murdever","@YGrandmontagne","@Mnyo","@EdKOSCIANSKI","@tnoisette","@jankari","@delbello_rom","@rflechaux","@NadiaSorelli","@IT_Digital","@abarbaux","@PhilippeLeroy","@schaptal","@marionspee","@lisavignoli","@ChloeAeberhardt","@MartineJacot","@JuliaPascualita","@curieusedetout","@sgraveleau","@bif_o","@ElisaPineau","@zinebdryef","@apiquard","@pierrehaski","@StephanieDelmas","@Blandine_Garot","@vergara_i","@evan_lebastard","@SophieVclt","@OlivierLevrault","@alicedorgeval","@LouiseMalnoy","@alix_fx","@pierre_baudis","@LucMagoutier","@AgatheMuller","@SGianninelli","@PaulineBoyer33","@NaomiHalll","@romaindlx","@marionbr","@Burtschy","@JacobEtienne","@as_lizzani","@marie_simon","@LaureDaussy","@FabriceAmedeo","@LoubnaChlaikhy","@PlummerWilliam","@OlivierMarin1","@alaurefremont","@mwesfreid","@ChBaDe","@pmathon","@theobaldmarie","@Lnpagesy","@marclandre","@paoliniesther","@Feertchak","@JBLitzler","@GuillaumeErrard","@quentinperinel","@TristanQM","@mlbo","@constancejamet","@LoraTerrazas","@emiliegeffray","@Mathilde_Sd","@CaroPiquet","@DCanivez","@TIM_7375","@blandinelc","@ivanrioufol","@arthurberdah","@SarahLecoeuvre","@guillaume_gui","@DamienMercereau","@W_Chloe","@Assma_MD","@EugenieBastie","@HiTech_lexpress","@bcondominas","@Laurie_Z_","@jeanfrancgerard","@MathieuPagura","@BGUYF","@AlainPiffaretti","@AudreyKucinskas","@julienhory","@Pierrefalga","@TiphThuillier","@cdaniez","@LigerBaptiste","@D_Peras","@julie_dlb","@Fatiha_Temmouri","@julian2lamancha","@GaetaneDeljurie","@JulianMattei","@M_Vicuna","@DeBruynOlivier","@Nehed_Jendoubi","@antoine_grenapi","@ColonnaGen","@VictoriaGairin","@Clement_Lacombe","@TVigoureux","@MargauxObriot","@solinedelos","@RocheSabine","@dangerkens","@EdouardDutour","@MDondeyne","@DupuisNathalie1","@bouscarel","@Mathieu2jean","@Sophie_T_J","@laurentcalixte","@patrockwilliams","@PascaleKremer","@AlexJaquin","@LauraIsaaz","@cath_robin","@Del_Gautherin","@Isaduriez","@lucietuile","@AugeyBastien","@mcastagnet","@AminaKalache","@mvaudano","@CParrot","@ombelinetips","@_JoinLion","@BarbolosiRose","@ToiBruno1","@FloraClodic","@xjbdx","@AlexiaEy","@Emjy_STARK","@elcoco01","@rabilebon","@pflovens_","@FabriceFrossard","@MorganeSERRES","@MarjolaineKoch","@edgarsnow","@SRNLF","@CChassigneux","@KerinecMoran","@NassiraELM","@NewsRicard","@Sandreene","@Emilezrt","@Pierre_Do","@Micode","@CColumelli","@DavidAbiker","@ClementBergantz","@benjaminrabier","@celinekallmann","@edwyplenel","@C_Barbier","@JJBourdin_RMC","@LaurenceFerrari","@aslapix","@IsaMillet","@MaximeSwitek","@tomjoubert","@jszanchi","@roqueeva","@XavierBiseul","@florencesantrot","@AntoineCrochet","@freeman59","@MaudeML","@philippe_gulpi","@mathieum76","@kiouari","@imanemoustakir","@BenedicteMallet","@Emilie_Brouze","@antoinebarret","@_nicolasbocquet","@remibuhagiar","@CourretB","@AymericRobert","@miraelmartins","@pmaniere","@jesuisraphk","@David_Ingram","@pcelerier","@technomedia","@Geraldinedauver","@ThierryLabro","@Newsdusud","@nrauline","@gbregeras","@SCouasnonBFM","@actualites_nrv","@dimitrimoulins","@oli_aura","@FabieChiche","@Vincent_Raimblt","@ChristophGreuet","@PAlbuchay","@MarrauddesGrot","@vtalmon","@cedric","@olivierfrigara","@Julien_Jay","@LydiaBerroyer","@Shuua","@datisdaz","@Steuph","@ameliecharnay","@Bruno_LesNums","@LelloucheNico","@CciliaDiQuinzio","@Elodie_C","@SylvRolland","@Kocobe","@FL_Debes","@jdupontcalbo","@GarciaVictor_","@NicoRichaud","@RHoueix","@simottel","@DamienLicata","@annabelle_L","@Lea_Lejeune","@axel_deb","@marin_eben","@ptiberry","@MatthieuDelach","@sandrinecassini","@benjaminferran","@ppgarcia75","@NotPatrick","@ivalerio","@FabienneSchmitt","@alexgoude","@JeromeColombain","@manhack","@Capucine_Cousin","@Fsorel","@oliviertesquet","@marjoriepaillon","@ginades","@PierreTran","@DelphineCuny","@reesmarc","@lauratenoudji","@ldupin","@carolinedescham","@Lucile_Quillet","@cgabizon","@Allocab","@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75","@maximeverner","@s_jourdain","@LoriHelloc"]
 
+#Combien y a-t-il de journalistes ?
 def count(array)
 	n = array.length
 	puts "Il y a #{n} handles."
 end
 
+#Combien d'handle contiennent un numéro
 def number(array)
 	number_array = []
 	array.each do |i|
@@ -15,6 +17,7 @@ def number(array)
 	puts "Il y a #{number_array.count} handle qui contiennent un numéro"
 end
 
+#Combien d'handle contiennent les 4 lettres du prénom Aude à la suite (sans prendre en compte les majuscules) ?
 def letter_aude(array)
 	letter_array = []
 	array.each do |i|
@@ -25,6 +28,7 @@ def letter_aude(array)
 	puts "Il y a #{letter_array.count} handles qui contiennent le prénom Aude"
 end
 
+#Combien commencent par une majuscule (première lettre juste après le @) ?
 def majuscule_begin(array)
 	maj_array = []
 	array.each do |i|
@@ -35,6 +39,7 @@ def majuscule_begin(array)
 	puts "Il y a #{maj_array.count} handles qui commencent par un @ suivi d'une majuscule"
 end
 
+#Combien contiennent une majuscule ?
 def majuscule(array)
 	maj_array = []
 	array.each do |i|
@@ -45,20 +50,18 @@ def majuscule(array)
 	puts "Il y a #{maj_array.count} handles qui contiennent une majuscule"
 end
 
+#Combien y a-t-il de underscore dans tous les pseudos confondus ?
 def underscore(array)
-	underscore_array = []
-	array.each do |i|
-		if i.include?("_")
-			underscore_array << i
-		end
-	end
-	puts "Il y a #{underscore_array.count} handles qui contiennent un underscore" 
+	array = array.join("")
+	puts "Il y a #{array.count("_")} handles qui contiennent un underscore" 
 end
 
+#Trie la liste de handle par ordre alphabétique.
 def sort(array)
 	print array.sort
 end
 
+#Quels sont les 50 handles les plus courts de ce array ?
 def sort_by_length(array)
 	array.sort! do |a, b|
 		a.length <=> b.length
@@ -66,13 +69,15 @@ def sort_by_length(array)
 	print array[0...49]
 end
 
+#Quelle est la position dans l'array de la personne @epenser ?
 def epenser_pos(array)
 	puts array.index("@epenser")
 end
 
+#Exécution du programme
 def perform(array)
 	puts "Bonjour, je suis le PDG de Twitter, que veux-tu savoir ?"
-	puts "\n 1 - Combien y a-t-il de journalistes ? \n 2 - Combien d'handle contiennent un numéro \n 3 - Combien d'handle contiennent les 4 lettres du prénom Aude à la suite (sans prendre en compte les majuscules) ? \n 4 - Combien commencent par une majuscule (première lettre juste après le @) ? \n 5 - Combien y a-t-il de underscore dans tous les pseudos confondus ? \n 6 - Trie la liste de handle par ordre alphabétique. \n 7 - Quels sont les 50 handles les plus courts de ce array ? \n 8 - Quelle est la position dans l'array de la personne @epenser ?"
+	puts "\n 1 - Combien y a-t-il de journalistes ? \n 2 - Combien d'handle contiennent un numéro \n 3 - Combien d'handle contiennent les 4 lettres du prénom Aude à la suite (sans prendre en compte les majuscules) ? \n 4 - Combien commencent par une majuscule (première lettre juste après le @) ? \n 5 - Combien contiennent une majuscule ? \n 6 - Combien y a-t-il de underscore dans tous les pseudos confondus ? \n 7 - Trie la liste de handle par ordre alphabétique. \n 8 - Quels sont les 50 handles les plus courts de ce array ? \n 9 - Quelle est la position dans l'array de la personne @epenser ?"
 	print "> "
 	choix = gets.chomp.to_i
 
@@ -85,15 +90,20 @@ def perform(array)
 		elsif choix == 4
 			majuscule_begin(array)
 		elsif choix == 5
-			underscore(array)
+			majuscule(array)
 		elsif choix == 6
-			sort(array)
+			underscore(array)
 		elsif choix == 7
+			puts "mdr tu t'es pris pour qui ?? bon je vais quand même le faire..."
+			gets.chomp
+			sort(array)
+		elsif choix == 8
 			sort_by_length(array)
-		elsif choix == 8 
+		elsif choix == 9
 			epenser_pos(array)
 	end
 end
 
 perform(twitter)
+
 
