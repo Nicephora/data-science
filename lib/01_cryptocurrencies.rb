@@ -14,7 +14,6 @@ def float (cours)
 		x = cours[i].sub!("$", "").to_f #lui enlever le $ et le convertir en float
 		cours_f << x #le mettre dans la nouvelle array
 	end
-	cours_f.max
 	return cours_f #retourner l'array
 end
 
